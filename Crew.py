@@ -32,7 +32,7 @@ class Crew:
     def startRepairing(self): # called when repair is begun
         self.repairTimeLeft = round(10 / self.size) # the bigger the crew, the smaller the repair time required
 
-    # UPDATE
+    # Update function
     def update(self):
         if self.repairTimeLeft != 0: 
             self.repairTimeLeft -= 1 # decrease repair time left by one time unit

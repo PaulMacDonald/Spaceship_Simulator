@@ -1,8 +1,10 @@
 from Crew import Crew
 
-
 def main():
     # TESTING CRAP
+
+    # TODO TEST ALL SHIP FUNCTIONS AND WHATNOT!!!
+
     myCrew = Crew(5) # construct a crew of size 5
 
     myCrew.startRepairing()
